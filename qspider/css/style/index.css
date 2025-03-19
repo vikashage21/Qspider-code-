@@ -1,0 +1,6 @@
+@import url(./newStyle.style.css);
+/* importing the external css note :- the import css should awlays on top  */
+.font{
+    font: bold;
+    color: red;
+}
