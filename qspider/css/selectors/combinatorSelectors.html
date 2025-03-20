@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>combinator selectors</title>
 </head>
+<style>
+    section div {
+        background-color: red;
+
+        /* indrect child */
+    }
+
+    section>div {
+        background-color: blue;
+        /* direct child */
+    }
+
+    /* other example 
+     */
+    /* body>div {
+        width: 100px;
+        background-color: yellow;
+        height: 100px;
+    } */
+
+    section+div {
+        background-color: green;
+    }
+
+    /* just after section tag (just after closing tag of section tag) */
+
+    section~div {
+        background-color: blueviolet;
+    } 
+    /* just after closing tag of section tag  , all left tag are adjacent sibling  */
+</style>
+
 <body>
 
-    <!--  -->
-    
+    <!--  note
+      type of combinator selectors
+
+      1 descendent  empty space
+      2 child > 
+      3 adjacent sibling + 
+      4 general sibling ~ tilde
+
+      
+    -->
+    <div>
+        first div
+    </div>
+
+    <section>
+        <div>div 1</div>
+        <div>div 2</div>
+        <div>div 3</div>
+
+        <article>
+            <div>
+                div 4
+
+            </div>
+            <div>
+                div 5
+            </div>
+        </article>
+        <div>
+            div 6
+        </div>
+    </section>
+    <div>
+
+        div 7
+    </div>
+    <div>
+        div 8
+    </div>
+
+
 </body>
+
 </html>
