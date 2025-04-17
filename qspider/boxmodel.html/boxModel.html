@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 200px;
+            width: 200px;
+            border: 10px solid black;
+            padding: 10px 2px;
+            text-align: center;
+
+        }
+
+        section {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            ;
+        }
+
+        button:hover+section {
+            margin-left: 100px;
+            background-color: red;
+            border-radius: 100%;
+            transition: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>box model </h1>
+    <div class="container">
+        box1
+    </div>
+    <button>button</button>
+    <section>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p::first-letter {
+        color: red;
+    }
+
+    h1::first-line {
+        background-color: rebeccapurple;
+    }
+
+    p::selection {
+        background-color: yellow;
+    }
+
+    h1::after {
+        content: "this is code is added after the content";
+
+    }
+
+    h1::before {
+        content: "this is code is added before the content";
+    }
+
+    ::marker {
+        color: red;
+
+    }
+</style>
+
+<body>
+    <h1>
+        pseudo element selectors
+
+        <p> ::first-letter ::first-line ::selection ::after ::before ::markers</p>
+    </h1>
+    <h2>
+        second line
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quidem, at eaque nisi eum omnis quasi
+        voluptatum voluptate dolores quisquam cupiditate magnam laudantium esse. Commodi ratione aliquid nemo nobis
+        magnam?</p>
+    <ol>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>node</li>
+
+    </ol>
+
+</body>
+
+</html>

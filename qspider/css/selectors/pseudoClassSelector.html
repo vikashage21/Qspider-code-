@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <!-- note
     : 
     link 
-    visted
+    visted    anchor
     active 
+
     hover
     first child
     last child
@@ -18,8 +20,54 @@
     last of type
 
     -->
+
+    <style>
+        a:link {
+            color: aqua;
+        }
+
+        a:visited {
+
+            color: yellow;
+        }
+
+        /* once you visted the color is still same */
+
+        a:active {
+            color: red;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+       #container>:first-child{
+         color: red;
+       }
+       #container>:last-child{
+        background-color: blue;
+       }
+       #container>:nth-child(2){
+        background-color: yellow;
+       }
+       #container > h1:first-of-type{
+        color: yellowgreen;
+       }
+       #container > h1:last-of-type{
+        color: grey;
+       }
+    </style>
 </head>
+
 <body>
-    
+    <a href="http://www.filpkart.com/">Flipkart.com</a>
+
+    <div id="container">
+        <h1>first child</h1>
+        <p>This is a paragraph.</p>
+        <div>
+            last child
+        </div>
+    </div>
+
 </body>
+
 </html>

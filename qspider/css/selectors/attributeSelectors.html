@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute selector</title>
+</head>
+<style>
+    div[name] {
+        background-color: red;
+    }
+
+    /* checking the value as well  */
+
+    div[name='box1'] {
+        color: white;
+    }
+
+    div[name='content wrapper'] {
+        background-color: rebeccapurple;
+
+    }
+    /* or opertor is used here  */
+    div[name|='box']{
+        background-color: pink;
+    }
+</style>
+
+<body>
+    <h1>
+        learning attribute selectors.
+    </h1>
+    <div name="box1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas corporis beatae iure esse nemo eligendi
+        reprehenderit atque, vero consectetur officiis nulla accusamus eaque autem. In non commodi veniam deserunt illo?
+    </div>
+    <div name="content wrapper">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum tempore voluptates quasi. Praesentium
+        reiciendis officia, debitis quae deleniti maxime facilis sed repudiandae et ipsam, veniam natus eligendi
+        cupiditate minus rerum.
+    </div>
+    <div name="box-container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus aperiam labore accusantium doloribus.
+        Ipsum enim omnis delectus quos laboriosam earum quae perspiciatis est libero blanditiis nam, consectetur vitae
+        hic?
+    </div>
+</body>
+
+
+</html>
