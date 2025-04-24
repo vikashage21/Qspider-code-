@@ -87,12 +87,30 @@ if (true) {
 
 if (10 > 2) {
     var x = 10;
+    //   global scope and global variable
     let y = 20;
+    //  block scope and block scope  variable
     const c = 30
+    // block scope and black scope variable
 
     console.log(x, y, c)
 }
 
 console.log(x)
+
+
+function hello (){
+    var m  =10; 
+    // local variable and lacal scope / function scope
+    let n=20;
+    // local variable and lacal scope / function scope
+
+    console.log( 'inside the function '+m,n)
+}
+
+hello()
+
+// console.log(m)  error m is not defined
+
 
 
