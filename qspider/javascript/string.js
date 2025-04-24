@@ -55,7 +55,12 @@ console.log(str2.trimStart())
 // trimEnd()
 console.log(str2.trimEnd())
 
+
+
+// toupperCase and toLowerCase()
 let str3 = 'hello React '
 
 console.log(str3.toUpperCase())
+console.log(str3.toLowerCase())
+
 
