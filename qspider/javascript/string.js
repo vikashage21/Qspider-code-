@@ -69,3 +69,13 @@ let newChar=account_no.toString().slice(0,5)
 console.log(newChar)
 
 
+// padstart , padend
+
+let val =newChar.padEnd(10,"x")
+
+// maxlenght , char 
+
+
+console.log(val)
+
+
