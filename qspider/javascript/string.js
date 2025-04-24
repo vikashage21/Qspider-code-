@@ -63,4 +63,9 @@ let str3 = 'hello React '
 console.log(str3.toUpperCase())
 console.log(str3.toLowerCase())
 
+let account_no =85458446;
+
+let newChar=account_no.toString().slice(0,5)
+console.log(newChar)
+
 
