@@ -35,12 +35,12 @@ console.log(str1.substring(-5))
 // note :- substring is not using nowdays
 
 // substr
-console.log(str1.substr(0,5))
+console.log(str1.substr(0, 5))
 
 
 // trimstart , trim , trimend
 
-let str2 ='          javascript'
+let str2 = '          javascript'
 console.group(str2)
 
 // triming str2
@@ -63,19 +63,39 @@ let str3 = 'hello React '
 console.log(str3.toUpperCase())
 console.log(str3.toLowerCase())
 
-let account_no =85458446;
+let account_no = 85458446;
 
-let newChar=account_no.toString().slice(0,5)
+let newChar = account_no.toString().slice(0, 5)
 console.log(newChar)
 
 
 // padstart , padend
 
-let val =newChar.padEnd(10,"x")
+let val = newChar.padEnd(10, "x")
 
 // maxlenght , char 
 
 
 console.log(val)
+
+
+// function to check a number is pallindrome
+
+
+function pallindrome(word) {
+    let arr = word.split("").reverse().join("")
+    console.log(arr)
+    if (word === arr) {
+        console.log('true')
+    } else {
+        console.log('false')
+    }
+
+}
+
+
+pallindrome('racecar')
+
+
 
 
