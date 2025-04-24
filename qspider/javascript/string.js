@@ -16,3 +16,18 @@ console.log(str1.slice(-10, 5))
 let db = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic recusandae aliquam illo. Molestiae corrupti modi sapiente fugit eius aperiam reprehenderit aspernatur tempora deleniti officiis porro cumque, vel laboriosam harum?'
 
 console.log(db.slice(0, 10) + '...')
+
+//substrings
+
+// acpecting last and start index
+// end_index always gets ignored
+console.log(str1.substring(0, 5))
+// substring never acpect the negtive index
+console.log(str1.substring(-10, -5))
+console.log(str1.substring(-10, 5))
+
+// start index is changing into 0 index value(0,5)
+
+console.log(str1.substring(5))
+console.log(str1.substring(-5))
+
