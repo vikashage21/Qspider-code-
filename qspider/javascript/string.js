@@ -36,3 +36,26 @@ console.log(str1.substring(-5))
 
 // substr
 console.log(str1.substr(0,5))
+
+
+// trimstart , trim , trimend
+
+let str2 ='          javascript'
+console.group(str2)
+
+// triming str2
+
+// trim()
+
+console.log(str2.trim())
+
+// trimStart()
+console.log(str2.trimStart())
+
+// trimEnd()
+console.log(str2.trimEnd())
+
+let str3 = 'hello React '
+
+console.log(str3.toUpperCase())
+
