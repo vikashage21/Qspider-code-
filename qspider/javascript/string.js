@@ -31,3 +31,8 @@ console.log(str1.substring(-10, 5))
 console.log(str1.substring(5))
 console.log(str1.substring(-5))
 
+
+// note :- substring is not using nowdays
+
+// substr
+console.log(str1.substr(0,5))
