@@ -97,5 +97,24 @@ function pallindrome(word) {
 pallindrome('racecar')
 
 
+// replace
+
+let str4 = 'welcome everyone'
+
+
+console.log(str4.replace('everyone', 'vikash'))
+
+console.log(str4.replaceAll('everyone ', 'vikash'))
+
+
+
+
+// javascript 
+// array , obeject , string 
+
+
+
+
+
 
 
