@@ -41,7 +41,7 @@ console.log(str1.substr(0, 5))
 // trimstart , trim , trimend
 
 let str2 = '          javascript'
-console.group(str2)
+console.log(str2)
 
 // triming str2
 
@@ -108,13 +108,88 @@ console.log(str4.replaceAll('everyone ', 'vikash'))
 
 
 
+// methods
+
+// slice
+// substring
+// substr
+// trim, trimstart , trimEnd
+// toUpperCase,toLowerCase
+// padStart,padend
+// replace , replaceAll
+
+// Array
+// split
+// join
+// reverse
+
+
 
 // javascript 
-// array , obeject , string 
+// array , object , string 
 
 
 
+// array advance method
+
+let arry = [10, 20, 30];
 
 
+
+let val1 = arry.forEach((element, index, array) => {
+    // console.log(element)
+    // console.log(index)
+    // console.log(array)
+    return console.log('hello')
+
+})
+
+console.log(val1)
+
+console.log('----------------');
+// arry.map()
+
+let val2 = arry.map((e, i, arr) => {
+
+    console.log(e, i, arr)
+
+    return 'hello'
+})
+
+
+// compression return boolen(true, false)
+
+
+console.log(val2)
+// different between forEach and map method
+
+// forEach - it returns undefined
+
+// filter
+
+let val3 = arry.filter((element) => {
+    return element > 40
+})
+console.log(val3)
+
+// return element 
+
+// find (callback function)
+
+
+let result = arry.find((element) => {
+    return element > 25
+})
+
+console.log(result)
+
+
+let result2 = arry.findIndex((element) => {
+
+    return element > 25
+
+})
+
+console.log(result2)
 
 
