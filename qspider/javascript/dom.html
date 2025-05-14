@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .container {
+            width: 50vw;
+            height: 50vh;
+            background-color: rgb(193, 254, 239);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        main Content
+        <button onclick="hide()" type="submit">close</button>
+
+    </div>
+
+    <button onclick="hide()" type="submit">open</button>
+
+
+
+    <script>
+
+        // const btn = document.querySelector('button')
+        // btn.addEventListener('click' , ()=>{
+        //     console.log('clicked')
+        // })
+
+        function hide() {
+            let div = document.getElementsByClassName('container')
+
+
+            div[0].style.display = (div[0].style.display === 'none') ? 'block' : 'none';
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

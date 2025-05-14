@@ -192,4 +192,4 @@ let result2 = arry.findIndex((element) => {
 
 console.log(result2)
 
-
+// 
