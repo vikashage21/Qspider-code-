@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "dev":"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+"start": "npm json-server api/db.json --watch --port 4000"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.6",

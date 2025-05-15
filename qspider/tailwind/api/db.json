@@ -1,0 +1,173 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "age": 22,
+      "email": "rahul.sharma@example.com",
+      "phone": "9876543210",
+      "course": "Java Full Stack",
+      "batch": "Morning",
+      "joining_date": "2024-09-01",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Priya Singh",
+      "age": 23,
+      "email": "priya.singh@example.com",
+      "phone": "9123456780",
+      "course": "Python Full Stack",
+      "batch": "Evening",
+      "joining_date": "2024-10-15",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Aman Verma",
+      "age": 21,
+      "email": "aman.verma@example.com",
+      "phone": "9988776655",
+      "course": "Software Testing",
+      "batch": "Afternoon",
+      "joining_date": "2024-11-10",
+      "status": "Pending"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Reddy",
+      "age": 24,
+      "email": "sneha.reddy@example.com",
+      "phone": "9871122334",
+      "course": "DevOps",
+      "batch": "Morning",
+      "joining_date": "2024-08-20",
+      "status": "Completed"
+    },
+    {
+      "id": "0c3a",
+      "username": "vk220783@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "9ad6",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "976e",
+      "username": "dddd@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "05b2",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "2c7b",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "53d3",
+      "username": "hohoh@gmail.com",
+      "password": "hohoho"
+    },
+    {
+      "id": "8105",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "fe56",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "5052",
+      "username": "hohohoh@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "f4a6",
+      "username": "hohodh0@gmail.com",
+      "password": "hohohoh"
+    },
+    {
+      "id": "cc9d",
+      "username": "22@gmail.com",
+      "password": "124568"
+    },
+    {
+      "id": "4542",
+      "username": "hohoh@gmail.com",
+      "password": "6464949"
+    },
+    {
+      "id": "990b",
+      "username": "hgogog@gmail.com",
+      "password": "hohhohoho"
+    },
+    {
+      "id": "b7a0",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "39ed",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "452e",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "496b",
+      "username": "hogoh@gmailx.h",
+      "password": "ohoh"
+    },
+    {
+      "id": "6601",
+      "username": "hodfhofho@gmail.com",
+      "password": "hhohoho"
+    },
+    {
+      "id": "24de",
+      "username": "hodfhofho@gmail.com",
+      "password": "11111111111v"
+    },
+    {
+      "id": "4035",
+      "username": "hodfhofho@gmail.com",
+      "password": ""
+    },
+    {
+      "id": "3528",
+      "username": "hodfhofho@gmail.com",
+      "password": "646464649"
+    },
+    {
+      "id": "2dd4",
+      "username": "vk549494@gmail.com",
+      "password": "hoohdohdoh"
+    },
+    {
+      "id": "b775",
+      "username": "ohohoh@gmail.com",
+      "password": "hhohoho"
+    },
+    {
+      "id": "530b",
+      "username": "",
+      "password": ""
+    },
+    {
+      "id": "cf1a",
+      "username": "22@gmail.com",
+      "password": "1112233"
+    }
+  ]
+}
