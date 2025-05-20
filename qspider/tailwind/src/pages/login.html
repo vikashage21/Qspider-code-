@@ -47,11 +47,11 @@
     <h1 class="text-3xl font-bold text-purple-700 mb-4">Login</h1>
 
     <div class="w-full max-w-md bg-white p-6 rounded-xl shadow-md flex flex-col items-center gap-2">
-      <form class="flex flex-col gap-4 w-full" method="POST" action="#">
-        <input type="text" placeholder="Enter your Email"
+      <form class="flex flex-col gap-4 w-full" id="login_form">
+        <input type="text" id="email" placeholder="Enter your Email"
           class="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400" required>
 
-        <input type="password" placeholder="Enter password"
+        <input type="password" id="password" placeholder="Enter password"
           class="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400" required>
 
         <button type="submit"
@@ -74,6 +74,58 @@
     menuBtn.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
+    // checking the data form api that is correct or not 
+
+  
+
+
+    async function allData() {
+      try {
+        const res = await fetch('http://localhost:4000/user', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        const data = await res.json();
+        return data; // return user data
+      } catch (error) {
+        console.error('Error fetching data:', error);
+        return [];
+      }
+    }
+
+    let form = document.getElementById('login_form');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // prevent form from reloading the page
+
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      const users = await allData(); // get all users from server
+      console.log(users);
+
+      // find a match
+      const matchedUser = users.find(user => user.username   === email && user.password === password);
+
+
+      console.log(matchedUser);
+      if (matchedUser) {
+      window.location.href = 'index.html';
+
+        // redirect or save session
+      } else {
+        alert('Invalid email or password');
+      }
+    });
+
+
+
+
+
+
   </script>
 
 </body>
