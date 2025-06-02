@@ -3,6 +3,7 @@ import './style.css'
 import Button from './Button'
 import Parent from './Parent'
 import Parentdrill from './propDrilling/Parentdrill.jsx'
+import InlineCss from './reactCss/InlineCss.jsx'
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <Button tittle="Click Me" />
       <Parent/>
       <Parentdrill/>
+      <InlineCss/>
 
     </div>
   )
